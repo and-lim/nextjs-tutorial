@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+  background: linear-gradient(90deg, #4115df 0%, #73cfee 100%) !important;
+}
+/* 
+body{
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%) !important;
+} */
+
+.nav-link.active{
+  font-weight: bolder !important;
+  background-color: blue !important;
+}
